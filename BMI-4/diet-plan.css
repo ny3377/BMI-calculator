@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6499E9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #9EDDFF;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.meal-plan {
+    background-color: #A6F6FF;
+    color: #000;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.meal-plan:hover {
+    transform: scale(1.02);
+}
+
+.meal-plan h2 {
+    background-color: #BEFFF7;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.meal-plan ul {
+    list-style: none;
+}
+
+.meal-plan ul li {
+    margin-bottom: 8px;
+}
+
+.meal-plan p {
+    margin-top: 10px;
+}
+
+
+
